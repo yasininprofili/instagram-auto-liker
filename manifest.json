@@ -1,0 +1,18 @@
+{
+  "manifest_version": 3,
+  "name": "Instagram Auto Liker",
+  "description": "Anasayfaki gönderileri beğenir",
+  "version": "1.0",
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "js": ["javascript/jquery.js","javascript/custom.js"],
+      "css":["css/style.css"],
+      "matches": [
+        "https://www.instagram.com/*"
+      ]
+    }
+  ]
+}

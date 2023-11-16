@@ -1,0 +1,17 @@
+.content-div
+{
+    position: fixed;
+    bottom: 25px;
+    right: 35px;
+}
+
+.content-div button
+{
+    background: #cccccc17;
+    border: 1px solid #ccc;
+    padding: 8px 30px;
+    border-radius: 4px;
+    font-weight: 500;
+    margin-right: 15px;
+    cursor: pointer;
+}
